@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Shaun Alon</title>
-    <link rel="stylesheet" href="styles/1.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href=
@@ -10,37 +10,49 @@
 rel="stylesheet">
   </head>
   <body>
-    <div class="name">
-        S H A U N A L O N
-    </div>
-    <div class="content">
-      <div class="left-side">
-        <p class="statement">Aspiring computer scientist and business owner</p>
-        <div class="school">
-          &middot; Studying Computer Science at the University of Florida, Class of 2029
+    <header class="header">
+      <h1 class="name">SHAUN ALON</h1>
+
+    </header>
+
+    <main class="main-content">
+      <div class="content-wrapper">
+
+
+        <div class="left-side">
+          <p class="statement">
+            Aspiring computer scientist and business owner
+          </p>
+          <p class="school">
+            <span class="bullet">•</span>
+            Studying Computer Science at the University of Florida, Class of 2029
+          </p>
+        </div>
+        
+        <div class="right-side">
+          <div class="image-container">
+            <img
+            src="photos/DSC_5847.JPEG"
+            alt="Shaun Alon"
+            class="profile-image"
+            >
+          </div>
         </div>
       </div>
-      <div class="right-side">
-        <img class="me" src="photos/DSC_5847.JPEG">
-      </div>
-    </div>
-    <div class="bottom">
-        <button class="resume-button">
-          <a href=
-        "https://docs.google.com/document/d/15ngTF4pdLmW9CGnIBOY379SmBR1AVU8j/edit?usp=sharing&ouid=117246823357299178654&rtpof=true&sd=true"
-        target="blank" >Resume</a>
-        </button>
-        <a href=
-          "https://www.linkedin.com/in/shaun-alon-965a4520b/"
-          target="blank" >
-          <img  class="logo" src="photos/linkedin-logo-linkedin-icon-transparent-free-png.webp">
-        </a>
-        <a href=
-          "https://github.com/shaunalon/about-me-html"
-          target="blank" > 
-          <img class="logo" src="photos/GitHub-Symbol.png">
-        </a>
-      </div>
-  </body>
+    </main>
+    
+    <footer class="footer">
+      <button class="resume-button" onclick="window.open('https://docs.google.com/document/d/15ngTF4pdLmW9CGnIBOY379SmBR1AVU8j/edit?usp=sharing&ouid=117246823357299178654&rtpof=true&sd=true', '_blank')">
+        Resume
+      </button>
 
+      <a href="https://www.linkedin.com/in/shaun-alon-965a4520b/" target="_blank" class="social-link">
+        <img src="photos/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="LinkedIn" class="social-icon">
+      </a>
+
+      <a href="https://github.com/shaunalon/about-me-js" target="_blank" class="social-link">
+        <img src="photos/GitHub-Symbol.png" alt="GitHub" class="social-icon">
+      </a>
+    </footer>
+  </body>    
 </html>
